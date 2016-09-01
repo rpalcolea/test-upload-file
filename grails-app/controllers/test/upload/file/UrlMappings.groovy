@@ -9,6 +9,7 @@ class UrlMappings {
             }
         }
 
+        "/carga"(view:"/upload")
         "/"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
